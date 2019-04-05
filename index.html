@@ -8,16 +8,52 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-    <section class="social"></section>
+    <section class="menu container-fluid">
+        <nav class="navbar d-flex flex-row-reverse">
+          <ul class="d-flex flex-row">
+            <span class="login-wrapper"> <a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="far fa-user"></i></a> Log in </span>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="social-icons">
+              <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li> <a href="#"><i class="fab fa-facebook-f"></i></a> </li>
+              <li> <a href="#"><i class="fab fa-google-plus-g"></i></a> </li>
+              <li> <a href="#"><i class="fab fa-linkedin-in"></i></a> </li>
+            </div>
+          </ul>
+          <p class="justify-content-start">Wolcome to our We Care website!</p>
+        </nav>
+    </section>
 
     <header class="logo-nav"></header>
-    
+
     <section class="title"></section>
-    
+
     <main class="container">
         <!--contenedor de tabs y contenido-->
         <div class="contenedor-tabs">
@@ -111,11 +147,16 @@
                     </div>                
                 </div>
             </div>
-        </div> 
+        </div>
     </main>
     
-    <footer class="footer">
-        <img class="img" src="img/logo_footer.png" alt="">
+
+    <!--  -->
+    <footer class="footer">  <!-- CONTENEDOR DEL FOOTER -->
+        <img class="img" src="img/logo_footer.png" alt="logo">  <!-- IMAGEN DE FOOTER -->
+
+        <!-- DOS ARTICLE PARA DIVIDIR LA INFORMACION  -->
+
         <article class="article-1">
 
             <p class="p-footer">San Francisco, CA</p>
@@ -132,18 +173,18 @@
 
         </article>
 
-        <div class="conteiner-red-social">
-            <a class="red-social tw" href="https://twitter.com"></a>
-            <a class="red-social fb" href="https://fb.com"></a>
-            <a class="red-social yo" href="https://www.youtube.com/"></a>
-            <a class="red-social ln" href="https://mx.linkedin.com/"></a>
+        <div class="conteiner-red-social"><!--CONTENEDOR PARA LAS REDES SOCIALES  -->
+            <a class="red-social tw" href="https://twitter.com"><p class="img-tw"></p></a>
+            <a class="red-social fb" href="https://fb.com"><p class="img-fb"></p></a>
+            <a class="red-social yt" href="https://www.youtube.com/"><p class="img-yt"></p></a>
+            <a class="red-social ln" href="https://mx.linkedin.com/"><p class="img-ln"></p></a>
         </div>
 
 
     </footer>
     
     <section class="tos"></section>
-    
+
 
     <script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
