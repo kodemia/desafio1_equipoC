@@ -8,53 +8,119 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-    <section class="social"></section>
+    <section class="menu container-fluid">
+        <nav class="navbar d-flex flex-row-reverse">
+          <ul class="d-flex flex-row">
+            <span class="login-wrapper"> <a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="far fa-user"></i></a> Log in </span>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="social-icons">
+              <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li> <a href="#"><i class="fab fa-facebook-f"></i></a> </li>
+              <li> <a href="#"><i class="fab fa-google-plus-g"></i></a> </li>
+              <li> <a href="#"><i class="fab fa-linkedin-in"></i></a> </li>
+            </div>
+          </ul>
+          <p class="justify-content-start">Wolcome to our We Care website!</p>
+        </nav>
+    </section>
 
     <header class="logo-nav"></header>
-    
+
     <section class="title"></section>
-    
+
     <main class="container">
-        <ul class="nav nav-pills mb-3 tabs" id="pills-tab" role="tablist">
-            <li class="nav-item nav-item-block">
-              <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">All</a>
-            </li>
-            <li class="nav-item nav-item-block">
-              <a class="nav-link" id="pills-dogs-tab" data-toggle="pill" href="#pills-dogs" role="tab" aria-controls="pills-profile" aria-selected="false">Dogs</a>
-            </li>
-            <li class="nav-item nav-item-block">
-              <a class="nav-link" id="pills-pethealth-tab" data-toggle="pill" href="#pills-pethealth" role="tab" aria-controls="pills-pethealth" aria-selected="false">Pet Health</a>
-            </li>
-            <li class="nav-item nav-item-block">
-                <a class="nav-link" id="pills-cats-tab" data-toggle="pill" href="#pills-cats" role="tab" aria-controls="pills-cats" aria-selected="false">Cats</a>
-              </li>
-              <li class="nav-item nav-item-block">
-                <a class="nav-link" id="pills-adoption-tab" data-toggle="pill" href="#pills-adoption" role="tab" aria-controls="pills-adoption" aria-selected="false">Adoption</a>
-              </li>
-              <li class="nav-item nav-item-block">
-                <a class="nav-link" id="pills-smallpets-tab" data-toggle="pill" href="#pills-smallpets" role="tab" aria-controls="pills-smallpets" aria-selected="false">Small pets</a>
-              </li>
-          </ul>
-          <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-all-tab">All</div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-dogs-tab">Dogs</div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-pethealth-tab">Pet Health</div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-cats-tab">Cats</div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-adoption-tab">Adoption</div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-smallpets-tab">Small Pets</div>
-          </div>
+        <!--contenedor de tabs y contenido-->
+        <div>
+            <!--Nav pills-->
+            <ul class="nav nav-pills mb-3 tabs" id="pills-tab" role="tablist">
+                <li class="nav-item nav-item-block">
+                    <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">
+                        All
+                    </a>
+                </li>
+                <li class="nav-item nav-item-block">
+                    <a class="nav-link" id="pills-dogs-tab" data-toggle="pill" href="#pills-dogs" role="tab" aria-controls="pills-profile" aria-selected="false">
+                        Dogs
+                    </a>
+                </li>
+                <li class="nav-item nav-item-block">
+                    <a class="nav-link" id="pills-pethealth-tab" data-toggle="pill" href="#pills-pethealth" role="tab" aria-controls="pills-pethealth" aria-selected="false">
+                        Pet Health
+                    </a>
+                </li>
+                <li class="nav-item nav-item-block">
+                    <a class="nav-link" id="pills-cats-tab" data-toggle="pill" href="#pills-cats" role="tab" aria-controls="pills-cats" aria-selected="false">
+                        Cats
+                    </a>
+                </li>
+                <li class="nav-item nav-item-block">
+                    <a class="nav-link" id="pills-adoption-tab" data-toggle="pill" href="#pills-adoption" role="tab" aria-controls="pills-adoption" aria-selected="false">
+                        Adoption
+                    </a>
+                </li>
+                <li class="nav-item nav-item-block">
+                    <a class="nav-link" id="pills-smallpets-tab" data-toggle="pill" href="#pills-smallpets" role="tab" aria-controls="pills-smallpets" aria-selected="false">
+                        Small pets
+                    </a>
+                </li>
+            </ul>
+            <!--Contenido tabs-->
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                    All
+                </div>
+                <div class="tab-pane fade" id="pills-dogs" role="tabpanel" aria-labelledby="pills-dogs-tab">
+                    Dogs
+                </div>
+                <div class="tab-pane fade" id="pills-pethealth" role="tabpanel" aria-labelledby="pills-pethealth-tab">
+                    Pet Health
+                </div>
+                <div class="tab-pane fade" id="pills-cats" role="tabpanel" aria-labelledby="pills-cats-tab">
+                    Cats
+                </div>
+                <div class="tab-pane fade" id="pills-adoption" role="tabpanel" aria-labelledby="pills-adoption-tab">
+                    Adoption
+                </div>
+                <div class="tab-pane fade" id="pills-smallpets" role="tabpanel" aria-labelledby="pills-smallpets-tab">
+                    Small Pets
+                </div>
+            </div>
+        </div>
     </main>
     
 
     <!--  -->
     <footer class="footer">  <!-- CONTENEDOR DEL FOOTER -->
-        <img class="img" src="img/logo_footer.png" alt="">  <!-- IMAGEN DE FOOTER -->
+        <img class="img" src="img/logo_footer.png" alt="logo">  <!-- IMAGEN DE FOOTER -->
 
         <!-- DOS ARTICLE PARA DIVIDIR LA INFORMACION  -->
+
         <article class="article-1">
 
             <p class="p-footer">San Francisco, CA</p>
@@ -82,7 +148,7 @@
     </footer>
     
     <section class="tos"></section>
-    
+
 
     <script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
