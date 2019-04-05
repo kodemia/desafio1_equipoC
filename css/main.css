@@ -3,20 +3,33 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: inherit;
 }
+
 html{
     box-sizing: border-box;
 }
-.tabs{
-    justify-content: space-between;
+
+.container div.contenedor-tabs{
+    margin-top: 15px;
 }
-.container ul li{
+.container ul li a.nav-word{
+    transition: all ease .3s;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    text-align: center;
+    white-space: nowrap;
+    background: #f7fafb;
+    border-radius: 0rem;
+    color: #5b5f62;
+    font-weight: lighter;
 }
-.container ul li a{
-    margin-left: auto;
-    margin-right: auto;
+.container ul li a.active{
+    transition: all ease .3s;
+    background-color: #f7fafb;
+    border-radius: 0rem;
+}
+
+.container div.tab-content div.tab-pane .container{
+    background-color: none;
 }
 
 footer.footer{
