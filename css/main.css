@@ -3,11 +3,12 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: inherit;
 }
+
 html{
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
+
 
 header {
   background: #fff;
@@ -59,7 +60,7 @@ ul,ol{
   top:0px;
 
 }
-=======
+
 /* Seccion de estilo de el menu */
 .menu ul li{
   list-style: none;
@@ -78,21 +79,100 @@ ul,ol{
 }
 /* end */
 
->>>>>>> a1f5608ace70c1edf23750f19ea754f14580335e
+
+
+
+/* estilo tabs */
+
 .tabs{
     justify-content: space-between;
 }
-.container ul li{
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+.container div.contenedor-tabs{
+    margin-top: 15px;
 }
-.container ul li a{
+.container ul li a.nav-word{
+    transition: all ease .3s;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    background: #f7fafb;
+    border-radius: 0rem;
+    color: #5b5f62;
+    font-weight: lighter;
+}
+.container ul li a.active{
+    transition: all ease .3s;
+    background-color: #f7fafb;
+    border-radius: 0rem;
 }
 
+.container div.tab-content div.tab-pane .container{
+    background-color: none;
+}
+/* end */
 footer.footer{
     background: #07243e;
     color: white;
 }
+
+footer.footer img{
+    margin-left: 40vw;
+    padding-bottom: 30px;
+}
+
+footer.footer article{
+    display: flex;
+    justify-content:center;
+}
+
+footer.footer div.conteiner-red-social a{
+    margin:5px;
+}
+
+footer.footer div.conteiner-red-social{
+    height: 100px;
+    display: flex;
+    justify-content:center;
+
+}
+
+footer.footer div.conteiner-red-social a.tw{
+    display: inline-flex;
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #1da1f2;
+
+   }
+
+   footer.footer div.conteiner-red-social a.fb{
+    display: inline-flex;
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #4267b2;
+
+   }footer.footer div.conteiner-red-social a.yt{
+    display: inline-flex;
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #f04732;
+
+   }footer.footer div.conteiner-red-social a.ln{
+    display: inline-flex;
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #283e4a;
+
+   }

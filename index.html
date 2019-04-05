@@ -118,36 +118,36 @@
 
     <main class="container">
         <!--contenedor de tabs y contenido-->
-        <div>
+        <div class="contenedor-tabs">
             <!--Nav pills-->
-            <ul class="nav nav-pills mb-3 tabs" id="pills-tab" role="tablist">
-                <li class="nav-item nav-item-block">
+            <ul class="nav nav-pills mb-3 tabs d-flex justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item">
                     <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">
                         All
                     </a>
                 </li>
-                <li class="nav-item nav-item-block">
-                    <a class="nav-link" id="pills-dogs-tab" data-toggle="pill" href="#pills-dogs" role="tab" aria-controls="pills-profile" aria-selected="false">
+                <li class="nav-item">
+                    <a class="nav-link nav-word" id="pills-dogs-tab" data-toggle="pill" href="#pills-dogs" role="tab" aria-controls="pills-profile" aria-selected="false">
                         Dogs
                     </a>
                 </li>
-                <li class="nav-item nav-item-block">
-                    <a class="nav-link" id="pills-pethealth-tab" data-toggle="pill" href="#pills-pethealth" role="tab" aria-controls="pills-pethealth" aria-selected="false">
+                <li class="nav-item">
+                    <a class="nav-link nav-word" id="pills-pethealth-tab" data-toggle="pill" href="#pills-pethealth" role="tab" aria-controls="pills-pethealth" aria-selected="false">
                         Pet Health
                     </a>
                 </li>
-                <li class="nav-item nav-item-block">
-                    <a class="nav-link" id="pills-cats-tab" data-toggle="pill" href="#pills-cats" role="tab" aria-controls="pills-cats" aria-selected="false">
+                <li class="nav-item">
+                    <a class="nav-link nav-word" id="pills-cats-tab" data-toggle="pill" href="#pills-cats" role="tab" aria-controls="pills-cats" aria-selected="false">
                         Cats
                     </a>
                 </li>
-                <li class="nav-item nav-item-block">
-                    <a class="nav-link" id="pills-adoption-tab" data-toggle="pill" href="#pills-adoption" role="tab" aria-controls="pills-adoption" aria-selected="false">
+                <li class="nav-item">
+                    <a class="nav-link nav-word" id="pills-adoption-tab" data-toggle="pill" href="#pills-adoption" role="tab" aria-controls="pills-adoption" aria-selected="false">
                         Adoption
                     </a>
                 </li>
-                <li class="nav-item nav-item-block">
-                    <a class="nav-link" id="pills-smallpets-tab" data-toggle="pill" href="#pills-smallpets" role="tab" aria-controls="pills-smallpets" aria-selected="false">
+                <li class="nav-item">
+                    <a class="nav-link nav-word" id="pills-smallpets-tab" data-toggle="pill" href="#pills-smallpets" role="tab" aria-controls="pills-smallpets" aria-selected="false">
                         Small pets
                     </a>
                 </li>
@@ -155,29 +155,70 @@
             <!--Contenido tabs-->
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
-                    All
+                    <div>
+                        <div class="row">
+                            <div class="col-sm">
+                            Columna
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="pills-dogs" role="tabpanel" aria-labelledby="pills-dogs-tab">
-                    Dogs
+                    <div>
+                        <div class="row">
+                            <div class="col-sm">
+                                Columna
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="pills-pethealth" role="tabpanel" aria-labelledby="pills-pethealth-tab">
-                    Pet Health
+                    <div>
+                        <div class="row">
+                            <div class="col-sm">
+                                Columna
+                            </div>
+                        </div>
+                    </div>                
                 </div>
                 <div class="tab-pane fade" id="pills-cats" role="tabpanel" aria-labelledby="pills-cats-tab">
-                    Cats
+                    <div>
+                        <div class="row">
+                            <div class="col-sm">
+                                Columna
+                            </div>
+                        </div>
+                    </div>                
                 </div>
                 <div class="tab-pane fade" id="pills-adoption" role="tabpanel" aria-labelledby="pills-adoption-tab">
-                    Adoption
+                    <div>
+                        <div class="row">
+                            <div class="col-sm">
+                                Columna
+                            </div>
+                        </div>
+                    </div>                
                 </div>
                 <div class="tab-pane fade" id="pills-smallpets" role="tabpanel" aria-labelledby="pills-smallpets-tab">
-                    Small Pets
+                    <div>
+                        <div class="row">
+                            <div class="col-sm">
+                                Columna
+                            </div>
+                        </div>
+                    </div>                
                 </div>
             </div>
         </div>
     </main>
+    
 
-    <footer class="footer">
-        <img class="img" src="img/logo_footer.png" alt="">
+    <!--  -->
+    <footer class="footer">  <!-- CONTENEDOR DEL FOOTER -->
+        <img class="img" src="img/logo_footer.png" alt="logo">  <!-- IMAGEN DE FOOTER -->
+
+        <!-- DOS ARTICLE PARA DIVIDIR LA INFORMACION  -->
+
         <article class="article-1">
 
             <p class="p-footer">San Francisco, CA</p>
@@ -194,11 +235,11 @@
 
         </article>
 
-        <div class="conteiner-red-social">
-            <a class="red-social tw" href="https://twitter.com"></a>
-            <a class="red-social fb" href="https://fb.com"></a>
-            <a class="red-social yo" href="https://www.youtube.com/"></a>
-            <a class="red-social ln" href="https://mx.linkedin.com/"></a>
+        <div class="conteiner-red-social"><!--CONTENEDOR PARA LAS REDES SOCIALES  -->
+            <a class="red-social tw" href="https://twitter.com"><p class="img-tw"></p></a>
+            <a class="red-social fb" href="https://fb.com"><p class="img-fb"></p></a>
+            <a class="red-social yt" href="https://www.youtube.com/"><p class="img-yt"></p></a>
+            <a class="red-social ln" href="https://mx.linkedin.com/"><p class="img-ln"></p></a>
         </div>
 
 
