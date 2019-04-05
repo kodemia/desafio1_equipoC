@@ -7,6 +7,58 @@
 html{
     box-sizing: border-box;
 }
+
+
+header {
+  background: #fff;
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .Logo img{
+  width: 240px;
+}
+
+header nav{
+width: 70%;
+/*FLex*/
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+}
+ul,ol{
+  list-style:none;
+}
+.barra li a{
+  background-color: #fff;
+  color: #black;
+  text-decoration:none;
+  padding: 0px 30px;
+  display: block;
+}
+.barra li a:hover{
+  background-color: #fff;
+}
+.barra li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+.barra li:hover > ul{
+  display: block;
+}
+.barra li ul li{
+  position: relative;
+}
+.barra li ul li ul{
+  right: -140px;
+  top:0px;
+
+}
 .tabs{
     justify-content: space-between;
 }
