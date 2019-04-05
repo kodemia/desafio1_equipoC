@@ -1,0 +1,12 @@
+.tabs{
+    justify-content: space-between;
+}
+.container ul li{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.container ul li a{
+    margin-left: auto;
+    margin-right: auto;
+}
