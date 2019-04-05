@@ -1,13 +1,13 @@
 *, *::before, *::after{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
     box-sizing: inherit;
 }
 html{
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 
 header {
   background: #fff;
@@ -59,6 +59,26 @@ ul,ol{
   top:0px;
 
 }
+=======
+/* Seccion de estilo de el menu */
+.menu ul li{
+  list-style: none;
+  display: inline;
+}
+
+.menu {
+  background: #082b49;
+  color: #d0d1d2;
+  font-size: 13px;
+}
+
+.menu div .social-icons{
+  width: 16px;
+
+}
+/* end */
+
+>>>>>>> a1f5608ace70c1edf23750f19ea754f14580335e
 .tabs{
     justify-content: space-between;
 }
